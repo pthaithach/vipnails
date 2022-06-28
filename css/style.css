@@ -94,7 +94,7 @@ a:focus {
     justify-content: center;
     flex-direction: row;
     height: 35px;
-    padding: 0 8px;
+    padding: 0 5px;
     text-align: center;
     border-left: 1px solid rgba(255, 255, 255, .15);
 }
@@ -552,7 +552,7 @@ a:focus {
 
 
 /*******************************/
-/********* Service CSS *********/
+/********* Services CSS *********/
 /*******************************/
 .service {
     position: relative;
@@ -2066,6 +2066,9 @@ a:focus {
     /*.container-fluid{*/
         /*max-width: none;*/
     /*}*/
+    .top-bar .text{
+        padding: 0 8px;
+    }
 }
 @media (min-width: 992px){
     .font-size-small{
@@ -2074,7 +2077,7 @@ a:focus {
 }
 @media (width: 768px){
     .top-bar .text h2{
-        font-size: 12px !important;
+        font-size: 10px !important;
     }
 }
 @media (max-width: 580px){
@@ -2220,4 +2223,7 @@ p.quia {
 
 .inner-border::-webkit-scrollbar{
     display: none;
+}
+.col-md-4{
+    float: left;
 }
